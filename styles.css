@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #navbarTogglerDemo01 {
+    background-color: white;
+    position: relative; 
+    z-index: 9999;
+  }
+  
+  .navbar {
+    height: 50px;
+    text-align: center;
+    margin: auto;
+  }
+  .contact .ul .li a {
+    text-decoration: none;
+  }
+  .carousel-item {
+    height: 75vh;
+    min-height: 300px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 75vh;
+  }
+  .carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+  }
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+  .carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  .custom-hr {
+    height: 5px;
+  }
+  .data {
+    height: 80px;
+  }
+  .service-icon {
+    font-size: 40px;
+  }
+  .service1 {
+    margin-top: 50px;
+    height: 380px;
+  }
+  .galary img {
+    width: 103%;
+  }
+  .testi img {
+    width: 60px;
+  }
+  .tcard {
+    width: 440px;
+  }
+  .s-img {
+    margin-right: 100px;
+    width: 440px;
+  }
+  @media (max-width: 1024px) {
+    .carousel-caption {
+      bottom: 125px;
+    }
+    .carousel-caption h5 {
+      font-size: 25px;
+    }
+    .service-icon {
+      font-size: 30px;
+    }
+    .service1 {
+      margin-top: 50px;
+      height: 650px;
+    }
+    .ad1 {
+      height: 300px;
+    }
+  }
+  #reveiw {
+    text-align: left;
+  }
+  .thr {
+    width: 10%;
+    background-color: rgb(255, 98, 0);
+  }
+  
+  @media (max-width: 769px) {
+    .service1 {
+      margin-top: 50px;
+      height: 580px;
+    }
+    .news {
+      margin-top: 10px;
+      margin-right: 45px;
+    }
+    .news h2 {
+      font-size: 26px;
+    }
+    .news p {
+      font-size: 16px;
+    }
+    .ad-img {
+      margin-top: 60px;
+      margin-left: 100px;
+      width: 70%;
+    }
+    .test-card {
+      margin-left: 60px;
+    }
+    .s-img img {
+      margin-top: 50px;
+    }
+  }
+  @media (max-width: 426px) {
+    .s-img {
+      margin-left: 100px;
+      margin-bottom: 20px;
+      width: 350px;
+    }
+    .service1 {
+      margin-top: 50px;
+      height: 650px;
+    }
+    .news {
+      margin-bottom: 90px;
+      margin-right: 45px;
+    }
+    .ad {
+      width: 100;
+    }
+    .ad-img {
+      width: 100%;
+    }
+    .tmain {
+      margin-left: 60px;
+    }
+    .test-card {
+      margin-left: -10px;
+    }
+  }
+  
